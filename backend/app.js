@@ -8,6 +8,8 @@ const app = express();
 app.use(bodyParser.json());
 app.use(express.static('public'));
 
+
+//CORS Implementation
 app.use((req, res, next) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST');
@@ -66,4 +68,6 @@ app.use((req, res) => {
   res.status(404).json({ message: 'Not found' });
 });
 
-app.listen(3000);
+app.listen(3000, () => {
+  console.log("http://localhost:3000")
+});

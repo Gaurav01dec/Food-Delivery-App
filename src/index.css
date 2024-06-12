@@ -28,8 +28,8 @@ body {
 }
 
 #main-header #title img {
-  width: 4rem;
-  height: 4rem;
+  width: 7rem;
+  height: 7rem;
   object-fit: contain;
   border-radius: 50%;
   border: 2px solid #ffc404;
