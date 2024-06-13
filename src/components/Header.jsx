@@ -23,7 +23,7 @@ export default function Header() {
         <header id="main-header">
             <div id="title">
                 <img src={logoImg} alt="A Restaurant"/>
-                <h1>MAMA JI BURGER</h1>
+                <h1>MAMA JI BURGER&trade;</h1>
             </div>
             <nav>
                 <Button textOnly={true} onClick={handleShowCart}>Cart ({totalCartItemss})</Button>
