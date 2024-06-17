@@ -20,7 +20,7 @@ export default function Header() {
     }
 
     return (
-        <header id="main-header">
+        <header id="main-header" className="sticky-header">
             <div id="title">
                 <img src={logoImg} alt="A Restaurant"/>
                 <h1>MAMA JI BURGER&trade;</h1>

@@ -1,1 +1,30 @@
-[]
+[
+    {
+        "items": [
+            {
+                "id": "m6",
+                "name": "Grilled Chicken Sandwich",
+                "price": 329,
+                "description": "Tender grilled chicken breast with avocado, bacon, lettuce, and honey mustard on a toasted bun.",
+                "image": "images/grilled-chicken-sandwich.jpg",
+                "quantity": 5
+            },
+            {
+                "id": "m2",
+                "name": "Margherita Pizza",
+                "price": 389,
+                "description": "A classic pizza with fresh mozzarella, tomatoes, and basil on a thin and crispy crust.",
+                "image": "images/margherita-pizza.jpg",
+                "quantity": 4
+            }
+        ],
+        "customer": {
+            "name": "gaurav",
+            "email": "gaurav@gmail.com",
+            "street": "12",
+            "postal-code": "122001",
+            "city": "Gurugram"
+        },
+        "id": "173.2655947457502"
+    }
+]

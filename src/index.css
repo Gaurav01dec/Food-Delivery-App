@@ -18,21 +18,21 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3rem 10%;
+  padding: 1rem 12%;
 }
 
 #main-header #title {
   display: flex;
-  gap: 1rem;
+  gap: 3rem;
   align-items: center;
 }
 
 #main-header #title img {
   width: 7rem;
-  height: 7rem;
+  height: 6.5rem;
   object-fit: contain;
   border-radius: 50%;
-  border: 2px solid #ffc404;
+  border: 4px solid #ffc404;
 }
 
 #main-header button {
@@ -259,4 +259,15 @@ h1 {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+/* Assuming you have a styles.css or similar */
+.sticky-header {
+  position: -webkit-sticky; /* For Safari */
+  background: linear-gradient(#29251c, #2c2306);
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensure the header stays on top of other content */
+   /* Optional: background color */
+  /* box-shadow: 0 4px 2px -2px gray; Optional: add a shadow for better visibility */
 }
